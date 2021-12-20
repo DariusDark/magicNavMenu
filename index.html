@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-		<!-- Дополнительные мета теги -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="robots" content="none">
-	<link rel="stylesheet" href="./css/main.css">
-	<title>Document</title>
-</head>
-<body>
-	
 
-	<script src="./js/main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <!-- Дополнительные мета теги -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="robots" content="none">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <ul class="navigation__lists">
+            <li class="navigation__list active">
+                <a class="navigation__link" href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="navigation__list">
+                <a class="navigation__link" href="#">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <span class="text">Profile</span>
+                </a>
+            </li>
+            <li class="navigation__list">
+                <a class="navigation__link" href="#">
+                    <span class="icon">
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                    </span>
+                    <span class="text">Message</span>
+                </a>
+            </li>
+            <li class="navigation__list">
+                <a class="navigation__link" href="#">
+                    <span class="icon">
+                        <ion-icon name="camera-outline"></ion-icon>
+                    </span>
+                    <span class="text">Photos</span>
+                </a>
+            </li>
+            <li class="navigation__list">
+                <a class="navigation__link" href="#">
+                    <span class="icon">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </span>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <div class="navigation__indicator"></div>
+        </ul>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
